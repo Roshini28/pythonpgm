@@ -5,6 +5,6 @@ for j in range(size8):
 	dt=list(map(int,dt.split(" ")))
 	nt=len(dt)
 	for i in range(nt):
-		arr3.append(dt[j])
+		arr3.append(dt[i])
 arr3.sort()
 print(*arr3,sep=" ")
