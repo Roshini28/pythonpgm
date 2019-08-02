@@ -1,0 +1,9 @@
+n1=int(input())
+l1=list(map(int,input().split()))[:n1]
+div=int(n1/2)
+a1=sum(l1[:div])//len(l1[:div])
+a2=sum(l1[div:])//len(l1[div:])
+if(a1==a2):
+  print("yes")
+else:
+  print("no")
