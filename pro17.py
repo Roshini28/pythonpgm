@@ -1,16 +1,16 @@
-npit=input()
-a1=list(map(int,npit.split()))
-k1=a1[1]
-ht=input()
-flag1=0
-sv1=list(map(int,ht.split()))
-for i in range(0,len(sv1)-1):
-	for j in range(i+1,len(sv1)):
-		if sv1[i]+sv1[j]==k1:
+aae1=input()
+a28=list(map(int,aae1.split()))
+m3=a28[1]
+he1=input()
+flag=0
+se1=list(map(int,he1.split()))
+for i in range(0,len(se1)-1):
+	for j in range(i+1,len(se1)):
+		if se1[i]+se1[j]==m3:
 			print("yes")
-			flag1=1
+			flag=1
 			break
-	if flag1==1:
+	if flag==1:
 		break
-if flag1!=1:
+if flag!=1:
 	print("no")
